@@ -2,5 +2,10 @@
 	position:relative;
 	bottom:500px;
 	color:$color_texto_blanco;
+	margin-left:$margin_left;
 }
 
+@mixin iconito{
+	margin-top:$margin;
+	color:$color_icono_support;
+}

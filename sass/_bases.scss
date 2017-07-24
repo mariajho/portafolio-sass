@@ -3,17 +3,14 @@
 		color:$color_texto_lorem;
 		padding:$padding;
 	}
-	.fa-th{
-		margin-top:$margin;
-		color:$color_icono_responsive;
+	#fa-icono {
+		@include ();
 	}
 	.fa-th-list{
-		margin-top:$margin;
-		color:$color_icono_quality;
+		@include ();
 	}
 	.fa-bars{
-		margin-top:$margin;
-		color:$color_icono_support;
+		@include ();
 	}
 }
 
