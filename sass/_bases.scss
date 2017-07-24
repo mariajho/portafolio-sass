@@ -1,5 +1,44 @@
-.dos{
+#dos{
 	.lorem{
+		color:$color_texto_lorem;
+		padding:$padding;
+	}
+	.fa-th{
 		margin-top:$margin;
+		color:$color_icono_responsive;
+	}
+	.fa-th-list{
+		margin-top:$margin;
+		color:$color_icono_quality;
+	}
+	.fa-bars{
+		margin-top:$margin;
+		color:$color_icono_support;
+	}
+}
+
+#tresA{
+	#who{
+		@include seccion_tres();
+		
+	}
+	#lorem_uno{
+		@include seccion_tres();
+	}
+	#celular{
+		width:90%;
+		height:70%;
+		position:relative;
+		bottom:500px;
+	}
+}
+
+#cuatro{
+	background-color:$background_uno;
+
+	h3{
+		font-size:$titulos;
+		font-weight:$titulos_bold;
+		margin-top:$margin_titulos;
 	}
 }

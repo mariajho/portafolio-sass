@@ -5806,7 +5806,38 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-.dos .lorem {
-  margin-top: 10%; }
+#dos .lorem {
+  color: #999999;
+  padding: 6%; }
+#dos .fa-th {
+  margin-top: 5%;
+  color: #E91E63; }
+#dos .fa-th-list {
+  margin-top: 5%;
+  color: #00BCD4; }
+#dos .fa-bars {
+  margin-top: 5%;
+  color: #4CAF50; }
+
+#tresA #who {
+  position: relative;
+  bottom: 500px;
+  color: white; }
+#tresA #lorem_uno {
+  position: relative;
+  bottom: 500px;
+  color: white; }
+#tresA #celular {
+  width: 90%;
+  height: 70%;
+  position: relative;
+  bottom: 500px; }
+
+#cuatro {
+  background-color: #F0F0F0; }
+  #cuatro h3 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 10%; }
 
 /*# sourceMappingURL=main.css.map */
