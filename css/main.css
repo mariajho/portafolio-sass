@@ -5806,5 +5806,7 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+.dos .lorem {
+  margin-top: 10%; }
 
 /*# sourceMappingURL=main.css.map */
